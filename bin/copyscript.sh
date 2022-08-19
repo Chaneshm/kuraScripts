@@ -6,4 +6,6 @@ cd /home/chanesh/kuraScripts/
 
 git add .
 git commit -m "update bin repo"
+git pull
 git push
+echo "Done."
