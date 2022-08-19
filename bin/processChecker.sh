@@ -7,7 +7,10 @@
 # The user can then type out the PID of the process they want to eliminate 
 # The system will refresh this process every 10 seconds until the user quits out of the script.
 
-
+# WHAT BREAKS:
+# If neither 0,x, or the PID is input when prompted for it will give an error but code will continue
+# If a non numerical character is given as the buffer the script considers it as 0
+# Room for improvement but I forgot it was due today!
 
 echo "What would you like as your memory buffer 0-100 ?"
 # Read user buffer
