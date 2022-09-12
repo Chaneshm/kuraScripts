@@ -12,5 +12,7 @@ if response == 0:
     if r == 0:
         print("Successfully sent file to EC2, now sshing..")
         os.system("ssh -i Cali1.pem ubuntu@3.83.101.158")
+    else:
+        print("An error occured sending your file.")
 else:
     print("EC2 not online")
