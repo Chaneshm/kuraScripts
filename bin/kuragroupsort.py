@@ -1,4 +1,7 @@
 #This script is in order to make new groups since we've had the same one since August. 
+#You will need a bank of the roster in a file names kuranamebank.txt
+#You will also need to create an empty kuragroups.txt
+#Both of these files must be within the same working directory as this script.
 #Please note that some groups may have less than 5, Ive yet to add a case for this but you can figure it out. :D
 import random
 
