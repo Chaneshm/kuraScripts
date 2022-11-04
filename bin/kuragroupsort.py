@@ -12,10 +12,13 @@ with open('kuranamebank.txt', 'r') as file:
     random.shuffle(data)
     buffer = []
     for count,i in enumerate(data):
-        groups.append(i)
-        if count % 5 == 0 and count != 0:
+        
+        if len(groups) % 6 == 0:
             gNum += 1
             groups.append(f'Group {gNum}')
+        groups.append(i)
+            
+            
 with open('kuragroups.txt', 'w') as file:
     for i in groups:
         file.write("%s\n" % i)
